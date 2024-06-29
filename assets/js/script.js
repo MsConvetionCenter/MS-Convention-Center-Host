@@ -2,12 +2,29 @@
 	
 	"use strict";
 	
-	//Hide Loading Box (Preloader)
-	function handlePreloader() {
-		if($('.preloader').length){
-			$('.preloader').delay(200).fadeOut(500);
-		}
+		//Preloader function
+
+	function firstLoad() {
+		$(".ml_bg-item").addClass("mgl_vis");
+		TweenMax.to(".ml-mask", 1.7, {
+			xPercent: 100,
+			repeat: 0,
+			yoyo: false,
+			repeatDelay: 0.5,
+			ease: Linear.easeNone,
+			onComplete: function () {
+				$(".ml_bg-item , .ml-wrap img").addClass("mgl_clos");
+				$(".main-loader").delay(500).fadeOut(1300);
+			}
+		});
 	}
+		
+	//Hide Loading Box (Preloader)
+	// function handlePreloader() {
+	// 	if($('.preloader').length){
+	// 		$('.preloader').delay(200).fadeOut(500);
+	// 	}
+	// }
 	
 	//Update Header Style and Scroll to Top
 	function headerStyle() {
@@ -1136,8 +1153,8 @@
    When document is loading, do
    ========================================================================== */
 	
-	$(window).on('load', function() {
-		handlePreloader();
+   $(window).on('load', function() {
+		firstLoad();
 	});	
 
 })(window.jQuery);
