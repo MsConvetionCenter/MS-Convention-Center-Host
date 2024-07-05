@@ -9005,7 +9005,10 @@
   }
   
   .card-body{
-	background-color: black !important;
+	background-color: #d7d7d7 !important;
+  }
+  .card-text{
+	color: black;
   }
   .card-title{
 	color: var(--main-color);
