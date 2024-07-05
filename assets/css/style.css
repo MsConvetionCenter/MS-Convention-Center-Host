@@ -3110,8 +3110,8 @@
 
 .welcome-three{
 	position: relative;
-	padding: 110px 0px 80px;
-	background-color: #040404;
+	padding: 3px 0px 80px;
+	background-color: #FFF;
 }
 
 .welcome-three_content-column{
@@ -3158,7 +3158,7 @@
 	margin-top: 20px;
 	font-weight: 500;
 	margin-bottom: 30px;
-	color: white;
+	color: rgb(0, 0, 0);
 }
 
 .welcome-three_list{
@@ -3196,7 +3196,7 @@
 	font-weight: 700;
 	font-size: 27px;
 	margin-top: 20px;
-	color: rgb(202, 202, 202);
+	color: var(--main-color);
 }
 
 .welcome-three_author span{
@@ -3235,7 +3235,7 @@
 	height: 660px;
 	border-radius: 50%;
 	background: #FFE6AF;
-    background: linear-gradient(to right, #050505 0%, #1b1b1b 100%);
+    background: linear-gradient(to right, #fff 0%, #efefef 100%);
 }
 
 /*** 
