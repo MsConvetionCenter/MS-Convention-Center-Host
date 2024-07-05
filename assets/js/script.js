@@ -36,9 +36,11 @@
 			var HeaderHight = $('.main-header').height();
 			if (windowpos >= HeaderHight) {
 				siteHeader.addClass('fixed-header');
+				$('.main-header .main-menu .navigation > li > a').css('color', 'black');
 				scrollLink.fadeIn(300);
 			} else {
 				siteHeader.removeClass('fixed-header');
+				$('.main-header .main-menu .navigation > li > a').css('color', 'white');
 				scrollLink.fadeOut(300);
 			}
 			
