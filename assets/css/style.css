@@ -40,7 +40,7 @@
 	left: 0;
 	bottom: 0;
 	z-index: 100;
- 	background: #000;
+ 	background: #fff;
 }
 .ml-wrap {
 	position: absolute;
@@ -66,7 +66,7 @@
     width: 200%;
     height: 120%;
     max-width: none;
-    background-image: linear-gradient(to right, transparent, #000 50%, #000);	
+    background-image: linear-gradient(to right, transparent, #fff 50%, #fff);	
 	z-index: 2;
 } 
 .ml_images-wrap {
