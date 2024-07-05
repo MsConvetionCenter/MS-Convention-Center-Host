@@ -728,7 +728,7 @@ img{
 .sec-title_heading{
 	margin-top: 15px;
 	font-weight: 400;
-	color: var(--white-color);
+	color: var(--black-color);
     text-transform: capitalize; 
 }
 
@@ -741,7 +741,7 @@ img{
 
 .sec-title.light .sec-title_text,
 .sec-title.light .sec-title_heading{
-	color:var(--white-color);
+	color:var(--black-color);
 }
 
 .sec-title.centered{

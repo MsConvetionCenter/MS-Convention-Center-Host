@@ -3263,7 +3263,6 @@
   font-weight: 800;
   color: #000000;
   -webkit-text-stroke-color: rgba(34,34,34, 1);
-  /* border: 1px solid rgba(0,0,0,0.15); */
 }
 
 .counter-one_counter-count sup{
@@ -3295,7 +3294,7 @@
 .project-three{
 	position: relative;
 	padding: 80px 0px 60px;
-	background-color: black;
+	background-color: #f6f6f6;
 }
 
 .project-three .upper-box{
