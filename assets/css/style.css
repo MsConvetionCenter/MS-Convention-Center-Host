@@ -3248,7 +3248,7 @@
 
 .counter-one{
 	position: relative;
-	background-color: #040404;
+	background-color: #FFF;
 }
 
 .counter-one_counter-column{
@@ -3261,9 +3261,9 @@
   padding: 40px 40px;
   font-size: 130px;
   font-weight: 800;
-  color: #e8e8e8;
+  color: #000000;
   -webkit-text-stroke-color: rgba(34,34,34, 1);
-  border: 1px solid rgba(0,0,0,0.15);
+  /* border: 1px solid rgba(0,0,0,0.15); */
 }
 
 .counter-one_counter-count sup{
