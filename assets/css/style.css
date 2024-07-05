@@ -1929,7 +1929,7 @@
 .welcome-two{
 	position: relative;
 	padding: 90px 0px 70px;
-	background-color: black;
+	background-color: rgb(255, 255, 255);
 }
 
 .welcome-two_content-column{
@@ -1951,7 +1951,7 @@
 	font-size: 16px;
 	padding-left: 30px;
 	margin-bottom: 15px;
-	color: rgb(204, 204, 204)
+	color: rgb(0, 0, 0)
 }
 
 .welcome-two_list li::before{
@@ -8598,7 +8598,7 @@
 	margin-top: -25px;
 }
 .side-bar-contact>h6{
-	color: #ffffff;
+	color: #1a1a1aba;
 	text-align: center;
 	padding: 5px 0px;
 }
@@ -8609,7 +8609,7 @@
 	
 }
 .side-bar-contact>a:hover{
-	color: var(--white-color);
+	color: rgb(210, 180, 17);
 	text-decoration: underline;
 }
 
@@ -8621,8 +8621,8 @@
 	padding: 0px 0px 30px 0px;
 }
 .sidebar-links-bottom>a{
-	color: var(--white-color);
-	background: linear-gradient(to right, #000 0%, #c5950487 100%);
+	color: var(--main-color);
+	background: #fff;
 	margin: 7px;
 	padding: 16px;
 	border-radius: 16px;
@@ -8631,9 +8631,6 @@
 .sidebar-links-bottom>a:hover{
 	font-size: 25px;
 	background: linear-gradient(to right, #000 0%, #9bc50487 100%);
-	/* -webkit-background-clip: text;
-	-webkit-text-fill-color: transparent; */
-
 }
 
 /* bottom contact box */
@@ -9010,49 +9007,3 @@
   .card-text{
 	color: black;
   }
-  .card-title{
-	color: var(--main-color);
-  }
-
-  .top-of-mobile-bottom {
-	position: fixed;
-	z-index: 19;
-	width: 100%;
-	background-color: rgb(255, 255, 255);
-	height: 70px;
-	bottom: 10%;
-  	justify-content: space-around;
-	padding: 10px;
-	border-radius: 15px 15px 0px 0px;
-	background-color: transparent;
-	text-align: center;
-	display: none;
-	
-}
-.top-of-mobile-bottom>a{
-	background: white;
-	color: black;
-	margin: 0px 16px;
-	padding: 11px 20px;
-	font-size: medium;
-	border-radius: 10px;
-	font-weight: bold;
-}
-.top-of-mobile-bottom>a:hover{
-	color: var(--main-color);
-	background-color: #181818;
-}
-.about-address-links{
-	color: white;
-}
-.about-address-links:hover{
-	color: var(--main-color);
-}
-
-/* gap for id  */
-
-.div-for-id{
-	width: 100%;
-	height: 120px;
-	background-color: transparent;
-}

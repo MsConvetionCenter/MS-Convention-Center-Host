@@ -618,7 +618,7 @@ ul {
     -webkit-transition: all 0.3s ease-in 0.3s;
     -o-transition: all 0.3s ease-in 0.3s;
     transition: all 0.3s ease-in 0.3s;
-    background: black;
+    background: #e7e5e5;
 }
 .xs-sidebar-group.isActive .sidebar-widget-container {
     -webkit-transition: all 1s ease-out 1.2s;
@@ -1022,4 +1022,5 @@ ul {
 
 .xs-sidebar-group.isActive .xs-sidebar-widget:nth-child(2){
 	right:0px;
+    box-shadow: -1px 0px 14px 0px #646262;
 }
