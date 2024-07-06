@@ -1380,7 +1380,7 @@
 .news-one{
 	position: relative;
 	padding: 100px 0px 100px;
-	background-color: var(--black-color);
+	background-color: var(--white-color);
 }
 
 .news-block_one{
@@ -1475,7 +1475,7 @@
 
 .news-block_one-heading a{
 	position: relative;
-	color: var(--white-color);
+	color: var(--black-color);
 }
 
 .news-block_one-heading a:hover{
@@ -1489,7 +1489,7 @@
 	font-weight: 600;
 	margin-top: 20px;
 	display: inline-block;
-	color: var(--white-color);
+	color: var(--black-color);
 }
 
 .news-block_one-more:hover{
