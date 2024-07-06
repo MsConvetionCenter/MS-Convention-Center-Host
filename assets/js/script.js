@@ -37,10 +37,17 @@
 			if (windowpos >= HeaderHight) {
 				siteHeader.addClass('fixed-header');
 				$('.main-header .main-menu .navigation > li > a').css('color', 'black');
+				$('.btn-style-one .btn-wrap .text-one').css('color', 'black');
+				$('.btn-style-one').css('border', ' 1px solid black');
+				$('<style>.btn-style-one::before { background-color: black; }</style>').appendTo('head');
 				scrollLink.fadeIn(300);
 			} else {
 				siteHeader.removeClass('fixed-header');
 				$('.main-header .main-menu .navigation > li > a').css('color', 'white');
+				$('.btn-style-one .btn-wrap .text-one').css('color', 'white');
+				$('.btn-style-one').css('border', ' 1px solid white');
+				$('.btn-style-one::before').css('background-color', 'white');
+				$('<style>.btn-style-one::before { background-color: white; }</style>').appendTo('head');
 				scrollLink.fadeOut(300);
 			}
 			
