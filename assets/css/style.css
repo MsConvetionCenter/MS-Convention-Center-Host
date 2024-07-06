@@ -4528,7 +4528,7 @@
 .service-detail{
 	position: relative;
 	padding: 110px 0px 110px;
-	background-color: black;
+	background-color: rgb(251, 251, 251);
 }
 
 .service-detail_content-column{
@@ -4600,11 +4600,12 @@
 	border-radius: 50%;
 	background: #FFE6AF;
     background: linear-gradient(to right, #000 0%, #666 232%);
+	display: none;
 }
 
 .service-detail p{
 	margin-bottom: 30px;
-	color: #dbdada;
+	color: #000000;
 }
 
 .service-detail_list{
@@ -4645,7 +4646,7 @@
 .service-detail h3{
 	position: relative;
 	margin-bottom: 25px;
-	color: white;
+	color: var(--main-color);
 }
 
 .service-detail_video{
@@ -8591,6 +8592,32 @@
 	color: white;
 }
 .contact-link-a:hover{
+	color: var(--main-color);
+}
+.contact-link-a-contact{
+	color: rgb(0, 0, 0);
+}
+.contact-link-a-contact:hover{
+	color: var(--main-color);
+}
+
+.above-footer-contact_list{
+	position: relative;
+}
+
+.above-footer-contact_list li{
+	position: relative;
+	font-size: 16px;
+	padding-left: 40px;
+	margin-bottom: 20px;
+	color: var(--white-color);
+}
+
+.above-footer-contact_list li span{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	text-transform: uppercase;
 	color: var(--main-color);
 }
 
