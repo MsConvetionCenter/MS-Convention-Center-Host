@@ -8745,7 +8745,15 @@
 }
 .input-list>input{
 	padding: 10px;
-	margin: 15px 30px;
+	margin: 7px 30px 20px 30px;
+	height: 43px;
+	border-radius: 10px;
+	background: #fff;
+	border:solid #0000001f .5px;
+}
+.input-list>select{
+	padding: 10px;
+	margin: 7px 30px 20px 30px;
 	height: 43px;
 	border-radius: 10px;
 	background: #fff;
@@ -8883,6 +8891,7 @@
   z-index: 19;
   font-size: xx-large;
   background: transparent;
+  border-radius: 30px;
 }
 .whatsapp-div{
 	color: white;
@@ -8892,8 +8901,8 @@
 	font-weight: 900;
 }
 .whatsapp-div:hover{
-	color: #fff;
-	background: transparent;
+	color: #00fd40;
+  	background: #fffafa2e;
 }
 
 /* call div fixed  */
@@ -8907,6 +8916,8 @@
 	z-index: 19;
 	font-size: xx-large;
 	background: transparent;
+	border-radius: 30px;
+
 }
 .call-div{
 	color: white;
@@ -8917,8 +8928,8 @@
 	border-radius: 24px;
 }
 .call-div:hover{
-	color: #fff;
-	background: transparent;
+	color: #00fd40;
+  	background: #fffafa2e;
 }
 
 /* FREE estimate */
@@ -8930,12 +8941,14 @@
 	text-align: center;
 	top: 52%;
 	z-index: 19;
-	background: transparent;
+	background: rgba(169, 115, 0, 0.39);
+	border-radius: 10px;
+	padding: 4px;
 }
 .estimate-div{
 	color: white;
-	background: #a9730073;
-	padding: 11px 7px;
+	background: var(--main-color);
+	padding: 6px 2px;
 	font-size: small;
 	border-radius: 8px;
 }

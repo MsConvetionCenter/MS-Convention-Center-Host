@@ -27,9 +27,55 @@
 </head>
 
 <body>
+
+<!-- enquiry form start -->
+<div class="enquiry-parent" id="enquiry-parent">
+	<div class="enquiry-child">
+		<div class="row">
+			<div class="col-lg-6 left-enquiry">
+				<div class="left-enquiry-text">
+					<h3>Let's Book</h3>
+					  <p>We're excited to host your event at our state-of-the-art facility. Please complete the form with your event details.</p>
+					<br>
+					<p>"Our team will review your submission and promptly confirm availability."</p>
+				</div>
+			</div>
+			<div class="col-lg-6 right-enquiry" >
+				<div>
+					<span class="fa fa-phone-square"></span><a class="contact-link-a" href="tel:+91 858 996 6642" style="color: black;"> +91 858 996 6642</a>
+					<span class="fa fa-envelope"></span><a class="contact-link-a" href="mailto:ms.conventioncenter@gmail.com" style="color: black;">ms.conventioncenter@gmail.com</a>
+				</div>
+				<div class="enquiry-close-button">
+					<span class="fa-solid fa-xmark fa-fw" onclick="enquiryClose()" id="enquiry-close" style="color: black; margin: 20px 18px;"></span>
+				</div>
+				
+				<h3 style="text-align: center; color: black;">MS Booking Form</h3>
+				<form method="post" action="https://formspree" class="input-list">
+					<input type="text" name="Name"  placeholder="Name" required>
+					<input type="email" name="Email_Id" placeholder="Email" required>
+					<input type="tel" name="phone_number"  placeholder="Phone Number" required>
+					<label for="">Select Event Type</label>
+					<select name="Event-type" required>
+						<option value="Wedding">Wedding</option>
+						<option value="Receptions">Receptions</option>
+						<option value="conference">Conference</option>
+						<option value="seminar">Seminar</option>
+						<option value="trade-show">Trade Show</option>
+						<option value="exhibition">Exhibition</option>
+						<option value="workshop">Workshop</option>
+						<option value="other">Other</option>
+					</select><br><br>
+					<label for="">Event Start Date</label>
+					<input type="datetime-local" name="Event Date"  placeholder="Event Start Date" required>
+					<button type="submit">submit</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- enquiry form end -->
  
 <div class="page-wrapper" style="background-color: #050505;">
-	
 	<!-- Preloader -->
 	<div class="main-loader">
 		<div class="ml-wrap">
@@ -379,16 +425,30 @@
 	</div>
 	<!-- End Search Popup -->
 	
-	<!-- Rotating whatsapp -->
-	<div class="color-palate">
-		<div class="color-trigger">
-			<a href="https://api.whatsapp.com/send/?phone=858 996 6642&text=I%27m+interested+in+booking+work&type=phone_number&app_absent=0" class="fa fa-whatsapp"></a>
-		</div>
-		
-	</div>
-	<!-- End  Rotating whatsapp  -->
+	
 	
 </div>
+<!-- side whatsapp -->
+<div class="whatsapp-fixed-parent">
+	<div class="whatsapp-div">
+		<a href="https://api.whatsapp.com/send/?phone=+91 858 996 6642&text=I%27m+interested+in+booking+work&type=phone_number&app_absent=0" class="fa fa-whatsapp whatsapp-div"></a>
+	</div>
+</div>
+<!-- side call -->
+<div class="call-fixed-parent">
+	<div class="call-div">
+		<a class="fa fa-phone call-div" href="tel:+91 858 996 6642"></a>
+	</div>
+</div>
+ <!-- side Enquiry -->
+<div class="estimate-fixed-parent">
+	<div class="estimate-div">
+		<i onclick="enquiryOpen()" class="free-vertical-text">Booking &nbsp; Form</i>
+	</div>
+</div>
+	<!-- fixed side end -->
+
+
 <!-- End PageWrapper -->
 
 <div class="progress-wrap">

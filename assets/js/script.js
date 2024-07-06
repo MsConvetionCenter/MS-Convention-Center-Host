@@ -1167,3 +1167,37 @@
 	});	
 
 })(window.jQuery);
+
+// const enquiryClose = document.getElementById('enquiry-close')
+const enquiryParent = document.getElementById('enquiry-parent')
+
+function enquiryClose (){
+	enquiryParent.style.animation = "moveToClose 1s forwards"
+	setTimeout(() => {
+		enquiryParent.style.display = 'none'
+	}, 1000);
+
+}
+function enquiryOpen (){
+	enquiryParent.style.animation = "moveToCenter 2s forwards"
+	enquiryParent.style.display = 'flex'
+
+}
+
+
+// for bottom service
+
+// try {
+// 	const fixeBottomNav = document.getElementById('fixeBottomNav')
+// 	const mobileBottomButton = document.getElementById('top-of-mobile-bottom')
+// 	fixeBottomNav.addEventListener('mousemove', (e) => {
+// 		mobileBottomButton.style.display = 'block'
+
+// 		setTimeout(() => {
+// 			mobileBottomButton.style.display = 'none'
+// 		}, 7000);
+// 	});
+	
+// } catch (error) {
+	
+// }
