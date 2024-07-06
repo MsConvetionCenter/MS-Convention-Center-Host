@@ -6217,6 +6217,7 @@
 	text-align:center;
 	padding:110px 0px 80px;
 	background-color: black;
+	filter: invert(1);
 }
 
 .error-section .content{
