@@ -1022,5 +1022,5 @@ ul {
 
 .xs-sidebar-group.isActive .xs-sidebar-widget:nth-child(2){
 	right:0px;
-    box-shadow: -1px 0px 14px 0px #646262;
+    box-shadow: 0px 0px 9px rgb(72 72 72);
 }
