@@ -6265,7 +6265,7 @@
 .contact-one{
 	position:relative;
 	padding:110px 0px 80px;
-	background-color: black;
+	background-color:#f0f0f0;
 }
 
 .contact-info-block{
@@ -6277,7 +6277,7 @@
 	position:relative;
 	padding:40px 30px;
 	text-align:center;
-	border:1px solid rgba(255, 251, 251, 0.08);
+	border:1px solid rgba(3, 3, 3, 0.1);
 	min-height: 298px;
 }
 .contact-info-block_inner>a:hover{
@@ -6294,21 +6294,23 @@
 .contact-info-block_heading{
 	position:relative;
 	font-weight:700;
-	color:var(--white-color);
+	color:var(--black-color);
 	margin-top:20px;
 }
 
 .contact-info-block_text{
 	position:relative;
 	line-height:28px;
-	color:var(--white-color);
+	color:var(--black-color);
 	font-size:16px;
 	margin-top:15px;
+	padding: 0px 20px;
 }
 
 .contact-info-block_text a{
 	position:relative;
-	color:var(--white-color);
+	color:var(--black-color);
+	display: block;
 }
 
 /*** 
@@ -6321,7 +6323,7 @@
 
 .map-one{
 	position:relative;
-	background-color: black;
+	background-color: rgb(255, 255, 255);
 }
 
 .map-one iframe{
@@ -6341,7 +6343,7 @@
 .contact-form-one{
 	position:relative;
 	padding:110px 0px 110px;
-	background-color: black;
+	background-color: rgb(255, 255, 255);
 }
 
 .contact-form-one .inner-container{
