@@ -1380,7 +1380,7 @@
 .news-one{
 	position: relative;
 	padding: 100px 0px 100px;
-	background-color: var(--white-color);
+	background-color: #f6f6f6;
 }
 
 .news-block_one{
@@ -1535,7 +1535,7 @@
 	text-align: center;
 	padding: 100px 0px 100px;
 	border-top: 1px solid rgba(0,0,0,0.15);
-	background-color: #f6f6f6;
+	background-color: #fff;
 }
 
 .cta-one.style-two{
