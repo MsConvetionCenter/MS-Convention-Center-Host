@@ -9076,6 +9076,21 @@
 	font-size: larger;
 	color: black;
 	border-radius: 10px;
+  }
 
+  /* testimonial page  */
 
+  .test-page-card{
+	height: auto;
+	margin-bottom: 10px;
+  }
+
+  .test-page-inner{
+	padding: 30px;
+	background-color: #fff;
+  }
+  .test-client-image{
+	width: 83px;
+	border-radius: 95%;
+	padding: 7px;
   }
