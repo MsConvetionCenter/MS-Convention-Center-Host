@@ -9088,6 +9088,7 @@
   .test-page-inner{
 	padding: 30px;
 	background-color: #fff;
+	min-height: 326px;
   }
   .test-client-image{
 	width: 83px;
