@@ -9047,6 +9047,7 @@
   
   .card-body{
 	background-color: #fff !important;
+	min-height: 285px;
   }
   .card-text{
 	color: black;
