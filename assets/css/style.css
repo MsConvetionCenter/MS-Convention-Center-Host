@@ -9055,30 +9055,31 @@
 
 
   /* up coming */
-  .name-for-up{
+  .detail-for-up{
 	width: 100%;
 	height: 100px;
-	background-color: red;
-  }
-  .date-for-up{
-	width: 100%;
-	height: 100px;
-	background-color: transparent;
+	background-color: #ffffff2e;
 	display: grid;
 	place-items: center;
-	font-size: larger;
-	color: black;
-  }
-  .time-for-up{
-	width: 100%;
-	height: 100px;
-	background-color: #bbbbbb2e;
-	text-align: center;
-	font-size: larger;
-	color: black;
 	border-radius: 10px;
+	border: solid 1px #e4e3e3;
   }
-
+  .detail-for-up i{
+	color: var(--main-color);
+	font-size: 20px;
+	padding-top: 10px;
+  }
+  .detail-for-up p{
+	color: black;
+	font-size: large;
+  }
+  .detail-for-up >h5{
+	color: var(--main-color);
+  }
+ .news-block_one span{
+	color: var(--main-color);
+	font-size: 15px;
+ }
   /* testimonial page  */
 
   .test-page-card{
