@@ -14,7 +14,7 @@
 			ease: Linear.easeNone,
 			onComplete: function () {
 				$(".ml_bg-item , .ml-wrap img").addClass("mgl_clos");
-				$(".main-loader").delay(500).fadeOut(1300);
+				$(".main-loader").delay(300).fadeOut(1300);
 			}
 		});
 	}
