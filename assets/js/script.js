@@ -2,6 +2,7 @@
 	
 	"use strict";
 	
+	
 		//Preloader function
 
 	function firstLoad() {
@@ -18,6 +19,9 @@
 			}
 		});
 	}
+
+	firstLoad();
+
 		
 	//Hide Loading Box (Preloader)
 	// function handlePreloader() {
@@ -1162,9 +1166,9 @@
    When document is loading, do
    ========================================================================== */
 	
-   $(window).on('load', function() {
-		firstLoad();
-	});	
+//    $(window).on('load', function() {
+// 		firstLoad();
+// 	});	
 
 })(window.jQuery);
 
