@@ -20,7 +20,7 @@
 		});
 	}
 
-	firstLoad();
+	// firstLoad();
 
 		
 	//Hide Loading Box (Preloader)
@@ -1166,9 +1166,9 @@
    When document is loading, do
    ========================================================================== */
 	
-//    $(window).on('load', function() {
-// 		firstLoad();
-// 	});	
+   $(window).on('load', function() {
+		firstLoad();
+	});	
 
 })(window.jQuery);
 
